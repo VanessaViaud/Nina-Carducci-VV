@@ -9,13 +9,20 @@ body {
 img {
 	max-width: 100%;
 	height: auto;	  
-/* 	aspect-ratio: 300 / 300;
- */}
-.top-header {
-	background-color: white;
+}
+/* header {
+	position: sticky;
+	z-index: 1000;
+	top:0;
+} */
+header {
 	position: sticky;
 	top:0;
 	z-index: 1000;
+}
+
+.top-header {
+	background-color: white;
 	display: flex;
 	justify-content: space-between;
 	padding-inline: 100px;
@@ -233,7 +240,7 @@ input[type="submit"] {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding:20px 200px 20px 200px;
+	padding:50px;
 }
 
 @media all and (max-width: 1180px) {
